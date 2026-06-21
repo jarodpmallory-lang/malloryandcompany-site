@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Mallory & Co.</title>
+  <meta name="description" content="Mallory & Co. privacy policy. Learn how we collect, use, and protect your personal information when you shop at malloryandcompany.com." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://malloryandcompany.com/privacy/" />
+  <meta property="og:title" content="Privacy Policy — Mallory & Co." />
+  <meta property="og:description" content="Learn how Mallory & Co. collects, uses, and protects your personal information." />
+  <meta property="og:site_name" content="Mallory & Co." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Privacy Policy — Mallory & Co." />
+  <meta name="twitter:description" content="Learn how Mallory & Co. collects, uses, and protects your personal information." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://malloryandcompany.com/privacy/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD: WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy — Mallory & Co.",
+    "url": "https://malloryandcompany.com/privacy/",
+    "description": "Mallory & Co. privacy policy covering data collection, use, cookies, and third-party services.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Mallory & Co.",
+      "url": "https://malloryandcompany.com"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://malloryandcompany.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Privacy Policy",
+        "item": "https://malloryandcompany.com/privacy/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --dark-bg: #0E1608;
+      --dark-surface: #1A2610;
+      --olive-dark: #3D5A1F;
+      --olive-mid: #5B7A2E;
+      --olive-light: #8BAA52;
+      --accent: #A3C24A;
+      --text-light: #E8EDD4;
+      --text-mid: #B8C99A;
+      --border: #2E4018;
+      --white: #F5F8EE;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background-color: var(--dark-surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0 2rem;
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a[aria-current="page"] {
+      color: var(--accent);
+    }
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      background-color: var(--dark-surface);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    .page-hero p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1rem 2rem 0;
+      font-size: 0.82rem;
+      color: var(--olive-dark);
+    }
+
+    .breadcrumb a {
+      color: var(--text-mid);
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      color: var(--accent);
+    }
+
+    .breadcrumb span {
+      margin: 0 0.4rem;
+    }
+
+    /* ── TABLE OF CONTENTS ── */
+    .toc-box {
+      background-color: var(--dark-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .toc-box h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+
+    .toc-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.3rem 1.5rem;
+    }
+
+    .toc-list li a {
+      color: var(--text-mid);
+      font-size: 0.85rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: color 0.2s;
+    }
+
+    .toc-list li a:hover {
+      color: var(--accent);
+    }
+
+    .toc-list li a::before {
+      content: '→';
+      color: var(--olive-light);
+      font-size: 0.75rem;
+    }
+
+    /* ── CONTENT ── */
+    .content-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    .effective-date {
+      font-size: 0.82rem;
+      color: var(--olive-light);
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .policy-section {
+      margin-bottom: 2.75rem;
+      scroll-margin-top: 80px;
+    }
+
+    .policy-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .policy-section p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 0.75rem;
+    }
+
+    .policy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section ul {
+      list-style: none;
+      margin: 0.5rem 0 0.75rem;
+      padding: 0;
+    }
+
+    .policy-section ul li {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      padding-left: 1.4rem;
+      position: relative;
+      margin-bottom: 0.3rem;
+    }
+
+    .policy-section ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--olive-light);
+    }
+
+    .policy-section strong {
+      color: var(--text-light);
+    }
+
+    .policy-section a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .policy-section a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background-color: var(--dark-surface);
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      color: var(--olive-dark);
+      font-size: 0.8rem;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .toc-list {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo">Mallory &amp; Co.</a>
+      <ul class="nav-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/">Returns</a></li>
+        <li><a href="/privacy/" aria-current="page">Privacy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" aria-label="Privacy policy header">
+    <h1>Privacy Policy</h1>
+    <p>How Mallory &amp; Co. collects, uses, and protects your information.</p>
+  </section>
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="https://malloryandcompany.com/">Home</a>
+    <span aria-hidden="true">/</span>
+    <span>Privacy Policy</span>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="content-wrap">
+
+      <p class="effective-date">Effective Date: June 21, 2026 &nbsp;·&nbsp; Last Updated: June 21, 2026</p>
+
+      <!-- Table of Contents -->
+      <div class="toc-box" aria-label="Table of contents">
+        <h3>Contents</h3>
+        <ul class="toc-list">
+          <li><a href="#info-we-collect">Information We Collect</a></li>
+          <li><a href="#how-we-use">How We Use Your Information</a></li>
+          <li><a href="#sharing">Sharing Your Information</a></li>
+          <li><a href="#cookies">Cookies &amp; Tracking</a></li>
+          <li><a href="#third-party">Third-Party Services</a></li>
+          <li><a href="#data-retention">Data Retention</a></li>
+          <li><a href="#your-rights">Your Rights</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- 1. Information We Collect -->
+      <section class="policy-section" id="info-we-collect">
+        <h2>1. Information We Collect</h2>
+        <p>When you visit or make a purchase from Mallory &amp; Co. at <strong>malloryandcompany.com</strong>, we may collect the following types of information:</p>
+        <p><strong>Personal Information you provide to us:</strong></p>
+        <ul>
+          <li><strong>Name</strong> — to process and address your order</li>
+          <li><strong>Email address</strong> — for order confirmations, shipping updates, and marketing communications (if opted in)</li>
+          <li><strong>Shipping address</strong> — to deliver your products</li>
+          <li><strong>Billing address</strong> — for payment verification and fraud prevention</li>
+          <li><strong>Payment information</strong> — credit or debit card details processed securely via our payment processor (we do not store full card numbers on our servers)</li>
+          <li><strong>Phone number</strong> — if provided, for shipping carrier notifications</li>
+        </ul>
+        <p><strong>Information collected automatically:</strong></p>
+        <ul>
+          <li>IP address and general location data</li>
+          <li>Browser type and device information</li>
+          <li>Pages visited, time spent, and referring URLs</li>
+          <li>Cookie data and session identifiers</li>
+          <li>Purchase history and browsing behavior on our site</li>
+        </ul>
+      </section>
+
+      <!-- 2. How We Use Your Information -->
+      <section class="policy-section" id="how-we-use">
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information we collect for the following purposes:</p>
+        <ul>
+          <li><strong>Order fulfillment</strong> — processing purchases, arranging shipping, and delivering your products</li>
+          <li><strong>Customer support</strong> — responding to questions, returns, and service issues</li>
+          <li><strong>Order communications</strong> — sending confirmations, tracking updates, and delivery notifications</li>
+          <li><strong>Marketing</strong> — sending promotional emails and product updates to customers who have opted in (you can unsubscribe at any time via the link in any email)</li>
+          <li><strong>Fraud prevention</strong> — detecting and preventing unauthorized transactions</li>
+          <li><strong>Site improvement</strong> — analyzing how visitors use our site so we can improve the experience</li>
+          <li><strong>Legal compliance</strong> — meeting our obligations under applicable law</li>
+        </ul>
+        <p>We will not sell your personal information to third parties for their own marketing purposes.</p>
+      </section>
+
+      <!-- 3. Sharing Your Information -->
+      <section class="policy-section" id="sharing">
+        <h2>3. Sharing Your Information</h2>
+        <p>We share your information only as necessary to operate our business and fulfill your orders:</p>
+        <ul>
+          <li><strong>Shopify</strong> — our e-commerce platform, which processes orders and stores customer data on our behalf</li>
+          <li><strong>Payment processors</strong> — Shopify Payments and/or third-party payment gateways (e.g., Stripe, PayPal) that handle your payment details securely</li>
+          <li><strong>Shipping carriers</strong> — to deliver your order (we share your name and address with the relevant carrier)</li>
+          <li><strong>Dropship suppliers</strong> — in some cases, order details are shared with our product suppliers to fulfill and ship your order directly</li>
+          <li><strong>Analytics providers</strong> — aggregated, anonymized usage data may be shared with analytics tools</li>
+          <li><strong>Legal authorities</strong> — when required by law, court order, or to protect the rights and safety of our business or customers</li>
+        </ul>
+        <p>We require all third parties to handle your data in compliance with applicable privacy laws.</p>
+      </section>
+
+      <!-- 4. Cookies & Tracking -->
+      <section class="policy-section" id="cookies">
+        <h2>4. Cookies &amp; Tracking Technologies</h2>
+        <p>Our site uses cookies and similar technologies to operate and improve your shopping experience. A cookie is a small data file stored on your browser.</p>
+        <p>We use cookies for the following purposes:</p>
+        <ul>
+          <li><strong>Essential cookies</strong> — required to keep items in your cart, maintain your session, and process your order</li>
+          <li><strong>Analytics cookies</strong> — help us understand site traffic, popular products, and how visitors navigate the site</li>
+          <li><strong>Marketing cookies</strong> — used to show you relevant ads on other platforms (e.g., Facebook, Google) if you have interacted with our site</li>
+          <li><strong>Preference cookies</strong> — remember your settings and preferences between visits</li>
+        </ul>
+        <p>You can control cookies through your browser settings. Disabling certain cookies may affect site functionality. Our Shopify store also adheres to Shopify's cookie consent framework where applicable.</p>
+      </section>
+
+      <!-- 5. Third-Party Services -->
+      <section class="policy-section" id="third-party">
+        <h2>5. Third-Party Services</h2>
+        <p>Our store is built on and operated through <strong>Shopify</strong>. By using our site, you also agree to Shopify's privacy practices. You can review Shopify's Privacy Policy at <a href="https://www.shopify.com/legal/privacy" target="_blank" rel="noopener noreferrer">shopify.com/legal/privacy</a>.</p>
+        <p>We may also use the following third-party tools:</p>
+        <ul>
+          <li><strong>Payment processors</strong> (Shopify Payments, Stripe, PayPal) — handle payment data under their own PCI-DSS compliant privacy policies</li>
+          <li><strong>Google Analytics</strong> — tracks site usage with anonymized data; governed by Google's Privacy Policy</li>
+          <li><strong>Meta Pixel</strong> — may be used to track conversions and deliver ads on Facebook and Instagram; governed by Meta's Data Policy</li>
+          <li><strong>Email marketing providers</strong> — used to send order confirmations and promotional emails to opt-in customers</li>
+        </ul>
+        <p>Links from our site to third-party websites are provided for your convenience. We are not responsible for the privacy practices of those sites and encourage you to review their policies.</p>
+      </section>
+
+      <!-- 6. Data Retention -->
+      <section class="policy-section" id="data-retention">
+        <h2>6. Data Retention</h2>
+        <p>We retain your personal information for as long as necessary to fulfill the purposes outlined in this policy, including for the duration of our business relationship with you and as required by law.</p>
+        <p>Order information is generally retained for a minimum of <strong>5 years</strong> to comply with tax and accounting obligations. You may request deletion of your personal data at any time (subject to legal retention obligations) by contacting us.</p>
+      </section>
+
+      <!-- 7. Your Rights -->
+      <section class="policy-section" id="your-rights">
+        <h2>7. Your Rights</h2>
+        <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+        <ul>
+          <li><strong>Access</strong> — request a copy of the personal data we hold about you</li>
+          <li><strong>Correction</strong> — request correction of inaccurate or incomplete data</li>
+          <li><strong>Deletion</strong> — request deletion of your personal data, subject to legal obligations</li>
+          <li><strong>Opt-out of marketing</strong> — unsubscribe from marketing emails at any time via the unsubscribe link in any email, or by contacting us directly</li>
+          <li><strong>Data portability</strong> — request a machine-readable copy of your data (where applicable)</li>
+          <li><strong>Objection</strong> — object to certain processing activities, including direct marketing</li>
+        </ul>
+        <p>To exercise any of these rights, email us at <a href="mailto:support@malloryandcompany.com">support@malloryandcompany.com</a>. We will respond within 30 days.</p>
+        <p>If you are a resident of California, you may have additional rights under the California Consumer Privacy Act (CCPA). If you are in the European Economic Area, you may have rights under the General Data Protection Regulation (GDPR). Contact us for jurisdiction-specific requests.</p>
+      </section>
+
+      <!-- 8. Children's Privacy -->
+      <section class="policy-section" id="childrens-privacy">
+        <h2>8. Children's Privacy</h2>
+        <p>Our site is not directed at children under the age of 13 and we do not knowingly collect personal information from children. If you believe we have inadvertently collected data from a child, please contact us immediately and we will delete it.</p>
+      </section>
+
+      <!-- 9. Contact -->
+      <section class="policy-section" id="contact">
+        <h2>9. Contact Us</h2>
+        <p>If you have questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us:</p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:support@malloryandcompany.com">support@malloryandcompany.com</a></li>
+          <li><strong>Website:</strong> <a href="https://malloryandcompany.com/contact/">malloryandcompany.com/contact</a></li>
+        </ul>
+        <p>We aim to respond to all privacy-related inquiries within <strong>1–2 business days</strong>.</p>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. Continued use of our site after changes constitutes acceptance of the updated policy.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo" style="font-size: 1.1rem;">Mallory &amp; Co.</a>
+      <ul class="footer-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/">Returns</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="mailto:support@malloryandcompany.com">support@malloryandcompany.com</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Mallory &amp; Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
