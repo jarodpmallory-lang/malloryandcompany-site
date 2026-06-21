@@ -1,1 +1,544 @@
-github.com/jarodpmallory-lang/HeyRon-Rick/raw/refs/heads/forge-system/mallory-and-co/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mallory & Co. — Viral Finds. Unbeatable Prices.</title>
+  <meta name="description" content="Mallory & Co. sources the most talked-about products from TikTok and Amazon and sells them below market price. Viral finds. Unbeatable prices." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://malloryandcompany.com/" />
+  <meta property="og:title" content="Mallory & Co. — Viral Finds. Unbeatable Prices." />
+  <meta property="og:description" content="We source the most talked-about products from TikTok and Amazon and sell them below market price. No markup nonsense. Just the best finds at the best prices." />
+  <meta property="og:site_name" content="Mallory & Co." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mallory & Co. — Viral Finds. Unbeatable Prices." />
+  <meta name="twitter:description" content="We source the most talked-about products from TikTok and Amazon and sell them below market price." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://malloryandcompany.com/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Mallory & Co.",
+    "url": "https://malloryandcompany.com",
+    "sameAs": ["https://malloryandcompany.com"],
+    "description": "Mallory & Co. sources the most talked-about products from TikTok and Amazon and sells them below market price.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "support@malloryandcompany.com",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Mallory & Co.",
+    "url": "https://malloryandcompany.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://malloryandcompany.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --dark-bg: #0E1608;
+      --dark-surface: #1A2610;
+      --olive-dark: #3D5A1F;
+      --olive-mid: #5B7A2E;
+      --olive-light: #8BAA52;
+      --accent: #A3C24A;
+      --text-light: #E8EDD4;
+      --text-mid: #B8C99A;
+      --border: #2E4018;
+      --white: #F5F8EE;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background-color: var(--dark-surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0 2rem;
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background-color: var(--dark-bg);
+      border-bottom: 1px solid var(--border);
+      padding: 6rem 2rem 5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(91,122,46,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--olive-light);
+      margin-bottom: 1.2rem;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.6rem, 6vw, 4.2rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 0.8rem;
+    }
+
+    .hero-tagline {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1rem, 2.5vw, 1.35rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-sub {
+      font-size: 1rem;
+      color: var(--text-mid);
+      max-width: 520px;
+      margin: 0 auto 2.4rem;
+      line-height: 1.7;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background-color: var(--accent);
+      color: var(--dark-bg);
+      padding: 0.85rem 2.2rem;
+      border-radius: 4px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background-color 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--olive-light);
+      transform: translateY(-1px);
+    }
+
+    /* ── SECTIONS ── */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-mid);
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── ABOUT CARD ── */
+    .about-wrapper {
+      background-color: var(--dark-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2.5rem 3rem;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .about-wrapper p {
+      color: var(--text-mid);
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .about-wrapper p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-wrapper strong {
+      color: var(--text-light);
+    }
+
+    /* ── CATEGORY CARDS ── */
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .category-card {
+      background-color: var(--dark-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+
+    .category-card:hover {
+      border-color: var(--olive-mid);
+      transform: translateY(-2px);
+    }
+
+    .category-emoji {
+      font-size: 1.8rem;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+
+    .category-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-light);
+    }
+
+    .category-price {
+      font-size: 0.85rem;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background-color: transparent;
+      border: 1px solid var(--olive-mid);
+      color: var(--accent);
+      padding: 0.45rem 1rem;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background-color 0.2s, border-color 0.2s;
+      align-self: flex-start;
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--olive-dark);
+      border-color: var(--accent);
+    }
+
+    /* ── CTA BANNER ── */
+    .cta-banner {
+      background-color: var(--dark-surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .cta-banner h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-banner p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      margin-bottom: 1.8rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background-color: var(--dark-surface);
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      color: var(--olive-dark);
+      font-size: 0.8rem;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .categories-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 1.2rem;
+      }
+
+      .about-wrapper {
+        padding: 1.75rem 1.5rem;
+      }
+
+      .hero {
+        padding: 4rem 1.5rem 3.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo">Mallory &amp; Co.</a>
+      <ul class="nav-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/">Returns</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">New drops constantly</p>
+      <h1>Mallory &amp; Co.</h1>
+      <p class="hero-tagline">Viral Finds. Unbeatable Prices.</p>
+      <p class="hero-sub">We track what's trending on TikTok and topping Amazon — then sell it to you below market price. No markup nonsense. Just the products everyone's talking about at prices that make sense.</p>
+      <a href="https://malloryandcompany.com/" class="btn-primary">Shop Now</a>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ABOUT -->
+  <section aria-label="About Mallory & Co.">
+    <div class="section" style="padding-bottom: 0;">
+      <h2 class="section-title" style="text-align:center; margin-bottom: 1.5rem;">Why Mallory &amp; Co.?</h2>
+    </div>
+    <div style="padding: 0 2rem 4rem; max-width: 1100px; margin: 0 auto;">
+      <div class="about-wrapper">
+        <p>We source the most talked-about products from <strong>TikTok and Amazon</strong> — the gadgets going viral, the kitchen tools everyone's reordering, the beauty finds with 10,000 five-star reviews — and we sell them to you <strong>below market price</strong>.</p>
+        <p>No inflated margins. No retailer markup. No nonsense. Just the best finds at the best prices, shipped directly to your door. We do the scrolling so you don't have to.</p>
+        <p>Every product in our store is <strong>hand-picked</strong> based on real trend data, real reviews, and real demand. If it's in our store, it earned its place.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- SHOP BY CATEGORY -->
+  <section aria-label="Shop by category">
+    <div class="section">
+      <h2 class="section-title">Shop by Category</h2>
+      <p class="section-subtitle">Browse our curated collections of viral products.</p>
+
+      <div class="categories-grid">
+
+        <article class="category-card">
+          <div class="category-emoji">🏠</div>
+          <div class="category-name">Home &amp; Kitchen</div>
+          <div class="category-price">From $12.99</div>
+          <a href="https://malloryandcompany.com/collections/home-kitchen" class="btn-secondary">Shop Home &amp; Kitchen</a>
+        </article>
+
+        <article class="category-card">
+          <div class="category-emoji">📱</div>
+          <div class="category-name">Tech &amp; Gadgets</div>
+          <div class="category-price">From $9.99</div>
+          <a href="https://malloryandcompany.com/collections/tech-gadgets" class="btn-secondary">Shop Tech &amp; Gadgets</a>
+        </article>
+
+        <article class="category-card">
+          <div class="category-emoji">✨</div>
+          <div class="category-name">Beauty &amp; Personal Care</div>
+          <div class="category-price">From $8.99</div>
+          <a href="https://malloryandcompany.com/collections/beauty-personal-care" class="btn-secondary">Shop Beauty</a>
+        </article>
+
+        <article class="category-card">
+          <div class="category-emoji">🏋️</div>
+          <div class="category-name">Fitness &amp; Outdoors</div>
+          <div class="category-price">From $14.99</div>
+          <a href="https://malloryandcompany.com/collections/fitness-outdoors" class="btn-secondary">Shop Fitness &amp; Outdoors</a>
+        </article>
+
+        <article class="category-card">
+          <div class="category-emoji">🛍️</div>
+          <div class="category-name">Everyday Deals</div>
+          <div class="category-price">From $6.99</div>
+          <a href="https://malloryandcompany.com/collections/everyday-deals" class="btn-secondary">Shop Everyday Deals</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner">
+    <h2>Ready to find your next obsession?</h2>
+    <p>New products drop regularly. Free shipping on US orders over $35.</p>
+    <a href="https://malloryandcompany.com/" class="btn-primary">Browse the Full Store</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo" style="font-size: 1.1rem;">Mallory &amp; Co.</a>
+      <ul class="footer-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/">Returns</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="mailto:support@malloryandcompany.com">support@malloryandcompany.com</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Mallory &amp; Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
