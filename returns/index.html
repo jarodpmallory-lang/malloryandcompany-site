@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Returns Policy — Mallory & Co.</title>
+  <meta name="description" content="Mallory & Co. returns policy. 30-day return window on all items in original condition. Contact support@malloryandcompany.com to start a return." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://malloryandcompany.com/returns/" />
+  <meta property="og:title" content="Returns Policy — Mallory & Co." />
+  <meta property="og:description" content="30-day return window. Items must be in original condition. Contact support@malloryandcompany.com to start a return or exchange." />
+  <meta property="og:site_name" content="Mallory & Co." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Returns Policy — Mallory & Co." />
+  <meta name="twitter:description" content="30-day return window. Contact support@malloryandcompany.com to get started." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://malloryandcompany.com/returns/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD: WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Returns Policy — Mallory & Co.",
+    "url": "https://malloryandcompany.com/returns/",
+    "description": "Mallory & Co. returns and exchange policy. 30-day return window on all eligible items.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Mallory & Co.",
+      "url": "https://malloryandcompany.com"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://malloryandcompany.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Returns Policy",
+        "item": "https://malloryandcompany.com/returns/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --dark-bg: #0E1608;
+      --dark-surface: #1A2610;
+      --olive-dark: #3D5A1F;
+      --olive-mid: #5B7A2E;
+      --olive-light: #8BAA52;
+      --accent: #A3C24A;
+      --text-light: #E8EDD4;
+      --text-mid: #B8C99A;
+      --border: #2E4018;
+      --white: #F5F8EE;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background-color: var(--dark-surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0 2rem;
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a[aria-current="page"] {
+      color: var(--accent);
+    }
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      background-color: var(--dark-surface);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    .page-hero p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1rem 2rem 0;
+      font-size: 0.82rem;
+      color: var(--olive-dark);
+    }
+
+    .breadcrumb a {
+      color: var(--text-mid);
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      color: var(--accent);
+    }
+
+    .breadcrumb span {
+      margin: 0 0.4rem;
+    }
+
+    /* ── CONTENT ── */
+    .content-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    /* Summary cards */
+    .policy-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    .summary-card {
+      background-color: var(--dark-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 1.25rem;
+      text-align: center;
+    }
+
+    .summary-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+
+    .summary-label {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .summary-detail {
+      font-size: 0.82rem;
+      color: var(--text-mid);
+    }
+
+    /* Policy sections */
+    .policy-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .policy-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .policy-section p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 0.75rem;
+    }
+
+    .policy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section ul {
+      list-style: none;
+      margin: 0.5rem 0;
+      padding: 0;
+    }
+
+    .policy-section ul li {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      padding-left: 1.4rem;
+      position: relative;
+      margin-bottom: 0.3rem;
+    }
+
+    .policy-section ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--olive-light);
+    }
+
+    .policy-section strong {
+      color: var(--text-light);
+    }
+
+    /* Contact CTA */
+    .contact-box {
+      background-color: var(--dark-surface);
+      border: 1px solid var(--olive-mid);
+      border-radius: 8px;
+      padding: 1.75rem 2rem;
+      margin-top: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-box-text h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .contact-box-text p {
+      font-size: 0.88rem;
+      color: var(--text-mid);
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background-color: var(--accent);
+      color: var(--dark-bg);
+      padding: 0.75rem 1.75rem;
+      border-radius: 4px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 0.88rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--olive-light);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background-color: var(--dark-surface);
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      color: var(--olive-dark);
+      font-size: 0.8rem;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .policy-summary {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .policy-summary {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 1.2rem;
+      }
+
+      .contact-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo">Mallory &amp; Co.</a>
+      <ul class="nav-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/" aria-current="page">Returns</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" aria-label="Returns page header">
+    <h1>Returns &amp; Exchanges</h1>
+    <p>We stand behind every product we sell. Here's how our policy works.</p>
+  </section>
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="https://malloryandcompany.com/">Home</a>
+    <span aria-hidden="true">/</span>
+    <span>Returns</span>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="content-wrap">
+
+      <!-- Summary cards -->
+      <div class="policy-summary" aria-label="Policy summary">
+        <div class="summary-card">
+          <span class="summary-icon">📅</span>
+          <div class="summary-label">30-Day Window</div>
+          <div class="summary-detail">Returns accepted within 30 days of delivery</div>
+        </div>
+        <div class="summary-card">
+          <span class="summary-icon">📦</span>
+          <div class="summary-label">Original Condition</div>
+          <div class="summary-detail">Items must be unused and in original packaging</div>
+        </div>
+        <div class="summary-card">
+          <span class="summary-icon">🔄</span>
+          <div class="summary-label">Exchanges Welcome</div>
+          <div class="summary-detail">We accept exchanges on eligible items</div>
+        </div>
+      </div>
+
+      <!-- Policy: Return Window -->
+      <div class="policy-section">
+        <h2>Return Window</h2>
+        <p>We accept returns within <strong>30 days of the delivery date</strong>. After 30 days, items are not eligible for return or exchange unless they arrived damaged or defective.</p>
+        <p>To be eligible for a return, your item must be in the same condition that you received it — <strong>unused, unaltered, and in its original packaging</strong>. Items that show signs of use, have been assembled, or are missing original packaging may not qualify for a full refund.</p>
+      </div>
+
+      <!-- Policy: How to Start a Return -->
+      <div class="policy-section">
+        <h2>How to Start a Return</h2>
+        <p>To initiate a return or exchange, email us at <strong><a href="mailto:support@malloryandcompany.com" style="color: var(--accent); text-decoration: none;">support@malloryandcompany.com</a></strong> with the following information:</p>
+        <ul>
+          <li>Your order number</li>
+          <li>The item(s) you want to return or exchange</li>
+          <li>The reason for the return</li>
+          <li>Photos of the item(s) if they arrived damaged or defective</li>
+        </ul>
+        <p>We'll respond within <strong>1–2 business days</strong> with instructions on how to ship your item back to us.</p>
+        <p><strong>Do not ship items back before receiving confirmation from our team.</strong> Returns sent without prior authorization may not be processed.</p>
+      </div>
+
+      <!-- Policy: Return Shipping -->
+      <div class="policy-section">
+        <h2>Return Shipping</h2>
+        <p>The <strong>buyer is responsible for return shipping costs</strong>, unless the item arrived damaged, defective, or was incorrectly sent. We recommend using a trackable shipping method — we cannot be responsible for items lost in transit on their way back to us.</p>
+        <p>If an item arrived damaged or defective, contact us immediately and we will arrange a prepaid return label or send a replacement at no charge.</p>
+      </div>
+
+      <!-- Policy: Refunds -->
+      <div class="policy-section">
+        <h2>Refunds</h2>
+        <p>Once we receive and inspect your return, we will notify you of the approval or rejection of your refund.</p>
+        <p>If approved, your refund will be processed to your <strong>original payment method within 5–10 business days</strong> (processing times vary by bank or card issuer).</p>
+        <p>Refunds cover the original item price. Original shipping charges are non-refundable unless the return is due to our error or a defective product.</p>
+      </div>
+
+      <!-- Policy: Exchanges -->
+      <div class="policy-section">
+        <h2>Exchanges</h2>
+        <p>We accept exchanges on items that meet the same eligibility requirements as returns — unused, in original condition, within 30 days of delivery.</p>
+        <p>To request an exchange, email <strong><a href="mailto:support@malloryandcompany.com" style="color: var(--accent); text-decoration: none;">support@malloryandcompany.com</a></strong> and let us know what item you'd like to exchange for. If the replacement item has a different price, we'll handle the difference via your original payment method or a payment link.</p>
+      </div>
+
+      <!-- Policy: Non-Returnable Items -->
+      <div class="policy-section">
+        <h2>Non-Returnable Items</h2>
+        <p>Certain items cannot be returned due to hygiene, safety, or product nature:</p>
+        <ul>
+          <li>Personal care and beauty products that have been opened or used</li>
+          <li>Consumable items</li>
+          <li>Items marked "Final Sale" at time of purchase</li>
+          <li>Digital products or downloads</li>
+          <li>Gift cards</li>
+        </ul>
+      </div>
+
+      <!-- Contact Box -->
+      <div class="contact-box">
+        <div class="contact-box-text">
+          <h3>Have a question about a return?</h3>
+          <p>Email us and we'll get back to you within 1–2 business days.</p>
+        </div>
+        <a href="mailto:support@malloryandcompany.com" class="btn-primary">Email Support</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <a href="https://malloryandcompany.com/" class="nav-logo" style="font-size: 1.1rem;">Mallory &amp; Co.</a>
+      <ul class="footer-links">
+        <li><a href="https://malloryandcompany.com/">Shop</a></li>
+        <li><a href="/returns/">Returns</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="mailto:support@malloryandcompany.com">support@malloryandcompany.com</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Mallory &amp; Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
